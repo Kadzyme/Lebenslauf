@@ -5,7 +5,7 @@ html {
 
 body {
   margin: 0px;
-  color: azure;
+  color: #333333;
   width: 900px;
   font-family: sans-serif;
 }
@@ -24,13 +24,12 @@ h3 {
 
 p,
 span {
-  color: #333333;
   margin: 2px 0px;
 }
 
 a {
   color: #4a6cf7;
-  text-decoration: wavy;
+  text-decoration: none;
 }
 
 a:hover {
@@ -39,6 +38,12 @@ a:hover {
 
 ul {
   padding: 0px;
+}
+
+.photo {
+  width: 175px;
+  border-radius: 50%;
+  margin: 0px 10px;
 }
 
 .titleSection {
@@ -56,7 +61,7 @@ ul {
 
 .titleSection h2 {
   margin-top: auto;
-  color: aquamarine;
+  color: #333333;
 }
 
 .mainSection {
